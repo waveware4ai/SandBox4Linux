@@ -1,6 +1,6 @@
 # SandBoxForNVIDIA
 
-This SandBox is isolated to use PotablePython/nVidiaGPUs on various Linux distributions.  
+This SandBox provides an isolated environment for using PotablePython/nVidiaGPUs on various Linux distributions.  
 This is built on Ubuntu22 and tested on CentOS7, CentOS8, Ubuntu20.x, Ubuntu22.x, Ubuntu24.x.  
 
 Additionally, you can create the most convenient environment possible when using it with zimport/PortablePython at the link below.  
