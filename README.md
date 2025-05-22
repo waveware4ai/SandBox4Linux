@@ -1,7 +1,11 @@
 # SandBoxForNVIDIA
 
-1. This SandBox is used to use Python/nVidia GPUs on various Linux distributions.
-2. This SandBox is built on Ubuntu22 and tested on CentOS7, CentOS8, Ubuntu20.x, Ubuntu22.x, Ubuntu24.x.
+This SandBox is used to use Python/nVidia GPUs on various Linux distributions.  
+This SandBox is built on Ubuntu22 and tested on CentOS7, CentOS8, Ubuntu20.x, Ubuntu22.x, Ubuntu24.x.  
+
+Additionally, you can create the most convenient environment possible when using it with zimport/PortablePython at the link below.
+https://github.com/waveware4ai/zimport
+https://github.com/waveware4ai/PortablePython
 
 Installation
 ------------
