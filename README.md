@@ -62,6 +62,42 @@ In conclusion, you can create a portable environment that is completely isolated
 and if you use Python and nVidia GPU, it can provide the best testing/service environment.  
 ※ Portable Python can be downloaded by referring to the link below.  
 https://github.com/waveware4ai/PortablePython  
+```bash
+root@Test:/# useradd github
+root@Test:/# passwd github
+New password:
+Retype new password:
+passwd: password updated successfully
+root@Test:/# login github
+Password:
+Welcome to Ubuntu 22.04 LTS (GNU/Linux 6.8.0-59-generic x86_64)
+$ whoami
+github
+$ exit
+
+root@Test:/# apt update
+Get:1 http://mirror.kakao.com/ubuntu jammy InRelease [270 kB]
+Get:2 http://mirror.kakao.com/ubuntu jammy-updates InRelease [128 kB]
+.
+.
+.
+Get:31 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [39.6 kB]
+Get:32 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [8716 B]
+Fetched 39.7 MB in 5s (7725 kB/s)
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+145 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+root@Test:/# apt install htop
+.
+.
+.
+Preparing to unpack .../htop_3.0.5-7build2_amd64.deb ...
+Unpacking htop (3.0.5-7build2) ...
+Setting up htop (3.0.5-7build2) ...
+root@Test:/#
+```
 
 nVidia Driver Pass-Through
 ------------
