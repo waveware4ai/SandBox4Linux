@@ -57,7 +57,7 @@ Welcome sandbox-0.1 ...
 ===========================================
 ```
 SandBox is isolated from the host and has a complete Ubuntu22 environment, even if it is a different Linux distribution.  
-In other words, useradd is possible internally, and a separate sshd daemon can also be run.  
+In other words, useradd/apt install commands is possible internally, and a separate sshd daemon can also be run.  
 In conclusion, you can create a portable environment that is completely isolated from the host system, 
 and if you use Python and nVidia GPU, it can provide the best testing/service environment.  
 ※ Portable Python can be downloaded by referring to the link below.  
