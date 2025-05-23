@@ -130,13 +130,13 @@ Fri May 23 19:54:45 2025
 root@Test:/#
 ```
 
-Unnstallation
+Unistallation
 ------------
 You can uninstall it using the command below and just delete it.
 ```
 sudo ./sandbox.install.sh ./sandbox-0.1.x86_64-linux
 sudo rm -rf ./sandbox-0.1.x86_64-linux
 ```
-Using SandBox
+Bug Report
 ------------
-Waiting to write ....
+If users find any bugs or issues, please report them to me.  
