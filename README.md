@@ -56,6 +56,13 @@ Welcome sandbox-0.1 ...
    - delete sandbox, anyway ...
 ===========================================
 ```
+SandBox is isolated from the host and has a complete Ubuntu22 environment, even if it is a different Linux distribution.  
+In other words, useradd is possible internally, and a separate sshd daemon can also be run.  
+In conclusion, you can create a portable environment that is completely isolated from the host system, 
+and if you use Python and nVidia GPU, it can provide the best testing/service environment.  
+※ Portable Python can be downloaded by referring to the link below.  
+https://github.com/waveware4ai/PortablePython  
+
 nVidia Driver Pass-Through
 ------------
 SandBox has nVidia Driver pass-through feature, so if you have installed nvidia driver on the host, you can access GPU inside SandBox.
